@@ -55,21 +55,7 @@
 
 <script>
 
-var STORAGE_KEY = 'todos-vuejs-2.0'
-var todoStorage = {
-  fetch: function () {
-    var todos = JSON.parse(localStorage.getItem(STORAGE_KEY) || '[]')
-    todos.forEach(function (todo, index) {
-      todo.id = index
-    })
-    todoStorage.uid = todos.length
-    return todos
-  },
-  save: function (todos) {
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(todos))
-  }
-}
-
+import todoStorage from './api'
 // visibility filters
 var filters = {
   all: function (todos) {
@@ -89,7 +75,7 @@ var filters = {
 export default {
 
   data: ()=>({
-    todos: todoStorage.fetch(),
+    todos: [],
     newTodo: '',
     editedTodo: null,
     visibility: 'all'
@@ -99,7 +85,7 @@ export default {
   watch: {
     todos: {
       handler: function (todos) {
-        todoStorage.save(todos)
+        todoStorage.save(todos).then(()=>{console.log('successfully saved')})
       },
       deep: true
     }
@@ -189,6 +175,7 @@ export default {
     }
   },
   mounted:function(){
+    todoStorage.fetch().then((todos)=>{this.todos=todos})
     const app = this;
     // handle routing
     function onHashChange () {
