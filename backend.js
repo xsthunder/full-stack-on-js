@@ -8,13 +8,16 @@ const router = new Router();
 /**
  * COR controls for options
  */
-router.options('/*',(ctx)=>{
+const set_cors = (ctx, next)=>{
     ctx.set('Access-Control-Allow-Headers','Content-Type');
     ctx.set('Access-Control-Allow-Origin','*');
     ctx.set('Access-Control-Allow-Methods','POST, GET, OPTIONS, DELETE, PUT');
     ctx.set('Access-Control-Max-Age','86400');
     ctx.body = '';
-});
+    next()
+};
+
+router.use('/*', set_cors)
 
 // sanity check
 router.get('/how-are-you', async(ctx)=>{
@@ -31,12 +34,12 @@ app.context.good = function(res, msg,){
 
 let todos = [];
 
-router.get('/todo', async(ctx)=>{
+router.get('/todos',  async(ctx)=>{
     console.log('get todo', todos)
 	ctx.good(todos);
 });
 
-router.post('/todo', async(ctx)=>{
+router.post('/todos', async(ctx)=>{
 	let body = ctx.request.body;
     console.log(body)
 	todos = body.todos
