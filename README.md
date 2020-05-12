@@ -25,7 +25,7 @@ node backend.js
 
 [本机前端地址](http://localhost:8080)
 
-[本机后端地址](http://localhost:8080)
+[本机后端地址](http://localhost:8088)
 
 
 ### Customize configuration
