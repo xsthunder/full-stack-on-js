@@ -19,6 +19,8 @@ const set_cors = (ctx, next)=>{
 
 router.use('/*', set_cors)
 
+router.options('/*', set_cors)
+
 // sanity check
 router.get('/how-are-you', async(ctx)=>{
 	ctx.good('i am fine, thank you, and you?');
