@@ -7,11 +7,11 @@ var todoStorage = {
       todo.id = index
     })
     todoStorage.uid = todos.length
-    return Promise.reslve(todos)
+    return Promise.resolve(todos)
   },
   save: function (todos) {
     localStorage.setItem(STORAGE_KEY, JSON.stringify(todos))
-    return Promise.reslve(todos)
+    return Promise.resolve(todos)
   }
 }
 export default todoStorage
