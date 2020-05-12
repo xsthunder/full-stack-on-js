@@ -11,9 +11,21 @@ yarn install
 ```
 
 ### Compiles and hot-reloads for development
+
 ```
+// 架起前端
 yarn serve
 ```
+
+同时
+```
+// 架起后端
+node backend.js
+```
+
+[本机前端地址](http://localhost:8080)
+
+[本机后端地址](http://localhost:8080)
 
 ### Compiles and minifies for production
 ```
