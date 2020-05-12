@@ -27,10 +27,6 @@ node backend.js
 
 [本机后端地址](http://localhost:8080)
 
-### Compiles and minifies for production
-```
-yarn build
-```
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
