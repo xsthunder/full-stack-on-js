@@ -1,6 +1,6 @@
 # full-stack-on-js
 
-讲义见[slides](doc\README.md)
+讲义见[slides](./doc/README.md)
 
 ## 目录结构
 ```
