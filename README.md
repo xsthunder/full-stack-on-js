@@ -1,4 +1,15 @@
-# simple-vue-starter
+# full-stack-on-js
+
+讲义见[slides](doc\README.md)
+
+## 目录结构
+```
+doc // 讲义
+postman // 接口集合文件
+public // 前端公开模板
+src // 前端源码
+backend.js // 简陋的后端
+```
 
 ## 安装
 
@@ -27,6 +38,9 @@ node backend.js
 
 [本机后端地址](http://localhost:8088)
 
+### 发布打包
+
+略
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
