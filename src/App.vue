@@ -2,19 +2,23 @@
   <div id="app">
     <HelloWorld msg="hello world from App"/>
 	<TodoList/>
+	<calendar/>
   </div>
 </template>
 
 <script>
 import TodoList from './components/TodoList.vue'
 import HelloWorld from './components/HelloWorld.vue'
+import { Calendar } from 'ant-design-vue'
 
+import 'ant-design-vue/dist/antd.css';
 
 export default {
   name: 'App',
   components: {
     TodoList,
-	HelloWorld
+	HelloWorld,
+	Calendar
   }
 }
 </script>
