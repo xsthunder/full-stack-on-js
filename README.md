@@ -2,6 +2,8 @@
 
 讲义见[slides](./doc/README.md)
 
+### 有问题可以在issue里面提问
+
 ## 目录结构
 ```
 doc // 讲义
