@@ -25,7 +25,7 @@ https://github.com/xsthunder/full-stack-on-js
 
 1. js教程
 
-2. vue or koa2教程
+2. vue or koa2教程，[vue教程点击此处](./vue-starter-pack.md)
 
 ---
 
