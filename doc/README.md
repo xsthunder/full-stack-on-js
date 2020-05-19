@@ -35,16 +35,20 @@ vue：数据绑定
 ## 想法
 
 逻辑代码和视图交互数据，统一存放在this.data
+
 vue监听this.data变化，自动更新视图。
+
 逻辑和视图分开，this.data是桥梁。
 
 ## 示例 [TodoList.vue](https://github.com/xsthunder/full-stack-on-js/blob/master/src/components/TodoList.vue)
 
 v-model 双向数据绑定
+
 `:`，单向数据绑定
+
 `@<action>="fuc"`绑定事件，事件放在this.methods中
 
-提示：前台可以通过桩模块暂时代替后台，从而不被后台的进度阻塞。[api.js](https://github.com/xsthunder/full-stack-on-js/blob/master/src/components/api.js)
+提示：前台可以通过桩模块暂时代替后台，从而不被后台的进度阻塞。[示例api.js](https://github.com/xsthunder/full-stack-on-js/blob/master/src/components/api.js)
 
 ---
 
