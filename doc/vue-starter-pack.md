@@ -3,8 +3,8 @@
 ## 从零开始的建议
 
 1. 先看[html5](http://www.runoob.com/html/html5-intro.html), [javasciprt](https://www.runoob.com/js/js-tutorial.html), [es6](http://es6.ruanyifeng.com/)，了解程度即可，可以随时查阅
-2. 看一遍[vue](https://cn.vuejs.org/v2/guide/)
-3. 实现本地实现[vue/examples at dev · vuejs/vue](https://github.com/vuejs/vue/tree/dev/examples)，自己思考，参考实现
+2. 看一遍[vue官方教程](https://cn.vuejs.org/v2/guide/)，了解程度即可，随时查阅
+3. 实现本地实现[vue/examples at dev · vuejs/vue](https://github.com/vuejs/vue/tree/dev/examples)，自己思考，参考实现，达到熟练
 4. 学习使用[Git](http://www.ruanyifeng.com/blog/2018/10/git-internals.html)
 
 ## 浏览组件的界面库，建议看一遍有什么组件
