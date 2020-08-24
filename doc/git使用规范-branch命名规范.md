@@ -22,9 +22,9 @@ feature/zjj-04-15-alpha1.5
 git使用规范 分支创建使用流程
 ----
 1. 码云，管理分支，从master新建分支，分支名`<branch1>`
-2. 本地获取远程仓库信息`git fetch`
-3. `git checkout <branch1>` 新建本地分支`<branch1>`，同时跟踪远程分支`<branch1>`
+2. `git fetch`本地获取远程仓库信息
+3. `git checkout <branch1>` 如无意外，该命令将在本地新建分支`<branch1>`，同时跟踪远程分支`<branch1>`
 3. 在自己分支下工作
 4. `git push //推送同步本分支`
-5. 提起目标到`dev`分支的pull request
-6. 定期从`dev`合并到`master`，做版本发布
+5. gitee提起`<branch1>`到`dev`分支的pull request
+6. 项目技术负责人定期从`dev`合并到`master`，做版本发布
