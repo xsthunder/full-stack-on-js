@@ -24,7 +24,7 @@ git使用规范 分支创建使用流程
 1. 码云，管理分支，从`master`新建分支，分支名`<branch1>`
 2. `git fetch`本地获取远程仓库信息
 3. `git checkout <branch1>` 如无意外，该命令将在本地新建分支`<branch1>`，同时跟踪远程分支`<branch1>`
-3. 在自己分支下工作
+3. 在自己分支下工作，见文档参考1，git基本操作
 4. `git push //推送同步本分支`
 5. gitee提起`<branch1>`到`dev`分支的pull request，请参考[开发者 提交 Pull Request](https://gitee.com/help/articles/4304#article-header1)
 6. 通知项目技术负责人进行代码审查以及合并，定期从`dev`合并到`master`，做版本发布
