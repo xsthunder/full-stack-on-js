@@ -21,10 +21,16 @@ feature/zjj-04-15-alpha1.5
  
 git使用规范 分支创建使用流程
 ----
-1. 码云，管理分支，从master新建分支，分支名`<branch1>`
+1. 码云，管理分支，从`master`新建分支，分支名`<branch1>`
 2. `git fetch`本地获取远程仓库信息
 3. `git checkout <branch1>` 如无意外，该命令将在本地新建分支`<branch1>`，同时跟踪远程分支`<branch1>`
 3. 在自己分支下工作
 4. `git push //推送同步本分支`
-5. gitee提起`<branch1>`到`dev`分支的pull request
-6. 项目技术负责人定期从`dev`合并到`master`，做版本发布
+5. gitee提起`<branch1>`到`dev`分支的pull request，请参考[开发者 提交 Pull Request](https://gitee.com/help/articles/4304#article-header1)
+6. 通知项目技术负责人进行代码审查以及合并，定期从`dev`合并到`master`，做版本发布
+
+注，1中不一定从`master`新建分支，5中pull request目的分支不一定`dev`，请联系对应仓库负责人
+
+文档参考
+-------
+1. 不了解git请先阅读[Pro Git（中文版）](http://git.oschina.net/progit/)，必须阅读[1 起步 - Pro Git](http://git.oschina.net/progit/1-%E8%B5%B7%E6%AD%A5.html)，[2 Git 基础 - Pro Git](http://git.oschina.net/progit/2-Git-%E5%9F%BA%E7%A1%80.html)，其他选读。**没有git基础知识请勿向远程仓库提交任何东西！**
