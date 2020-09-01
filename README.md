@@ -1,6 +1,6 @@
 # full-stack-on-js
 
-讲义见[slides](./doc/README.md)
+vue+koa2概念讲解，面向初学者的前端技术带货，讲义见[slides](./doc/README.md)
 
 ### 有问题可以在issue里面提问
 
