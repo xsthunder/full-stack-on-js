@@ -167,7 +167,7 @@ RxJS - throttleTime
     1. 不使用vuex
     2. ……
 1. 后端框架：[Egg.js](https://eggjs.org/zh-cn/intro/index.html)
-1. 接口格式：接口的数据协议推荐使用form-data，后端向前端以可调试的postman集合形式交付接口实现样例。
+1. 接口格式：接口的数据协议推荐使用form-data,[axios使用form-data](https://github.com/xsthunder/javascript-typescript-snippet/blob/master/postFormData.js)，后端向前端以可调试的[postman集合](https://github.com/xsthunder/full-stack-on-js)形式交付接口实现样例。
 1. [用户标识鉴权](https://developer.github.com/v3/#authentication)，[接口设计参照](https://developer.github.com/v3/)，[git的使用规范](./git使用规范-branch命名规范.md)
 1. 技术对比文档，[端到端测试平台对比](./前端测试cypress-vs-Nightwatch.md)
 
