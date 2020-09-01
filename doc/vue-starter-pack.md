@@ -24,4 +24,4 @@
 2. [es6](http://es6.ruanyifeng.com/)
 4. [接口axios](https://www.npmjs.com/package/axios)
 1. [linux上安装node document/install-node.md at master · xsthunder/document](https://github.com/xsthunder/document/blob/master/js/install-node.md)
-1. [配置node管理器，npm和yarn换源 linux-setting/init-npm.sh at master · xsthunder/linux-setting](https://github.com/xsthunder/linux-setting/blob/master/bash-script/init-npm.sh)
+1. [配置node包管理器，npm和yarn换源 linux-setting/init-npm.sh at master · xsthunder/linux-setting](https://github.com/xsthunder/linux-setting/blob/master/bash-script/init-npm.sh)
