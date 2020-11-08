@@ -12,10 +12,9 @@
 
 ## 必备工具与环境
 1. vs code
-2. nodejs
+2. node或npm或yarn安装参考，npm是nodejs自带的包管理器，但使用facebook推出的yarn，[document/install-node.md at master · xsthunder/document](https://github.com/xsthunder/document/blob/master/js/install-node.md)
 3. vs code 插件 Ant Design Vue helper
 4. vs code 插件 plugin Vetur
-5. npm是nodejs自带的包管理器，但使用facebook推出的yarn。[npm换源,yarn安装换源](https://github.com/xsthunder/linux-setting/blob/master/bash-script/init-npm.sh)。
 5. vue 浏览器debug插件 https://github.com/vuejs/vue-devtools，使用chrome或firefox安装
 
 ## reference
